@@ -15,6 +15,7 @@
 		D72C96F71D518D1000101AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72C96F51D518D1000101AE2 /* LaunchScreen.storyboard */; };
 		D72C97021D518D1000101AE2 /* AssociatedObjectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72C97011D518D1000101AE2 /* AssociatedObjectDemoTests.m */; };
 		D72C970D1D518D1000101AE2 /* AssociatedObjectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72C970C1D518D1000101AE2 /* AssociatedObjectDemoUITests.m */; };
+		D72C971C1D518D4000101AE2 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = D72C971B1D518D4000101AE2 /* UIButton+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D72C97081D518D1000101AE2 /* AssociatedObjectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssociatedObjectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72C970C1D518D1000101AE2 /* AssociatedObjectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssociatedObjectDemoUITests.m; sourceTree = "<group>"; };
 		D72C970E1D518D1000101AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72C971A1D518D4000101AE2 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		D72C971B1D518D4000101AE2 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D72C96EB1D518D1000101AE2 /* AppDelegate.m */,
 				D72C96ED1D518D1000101AE2 /* ViewController.h */,
 				D72C96EE1D518D1000101AE2 /* ViewController.m */,
+				D72C971A1D518D4000101AE2 /* UIButton+Block.h */,
+				D72C971B1D518D4000101AE2 /* UIButton+Block.m */,
 				D72C96F01D518D1000101AE2 /* Main.storyboard */,
 				D72C96F31D518D1000101AE2 /* Assets.xcassets */,
 				D72C96F51D518D1000101AE2 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				D72C96EF1D518D1000101AE2 /* ViewController.m in Sources */,
 				D72C96EC1D518D1000101AE2 /* AppDelegate.m in Sources */,
 				D72C96E91D518D1000101AE2 /* main.m in Sources */,
+				D72C971C1D518D4000101AE2 /* UIButton+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
